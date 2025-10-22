@@ -4,7 +4,7 @@
 // @version      2025-10-22
 // @description  try to take over the world!
 // @author       You
-// @match        https://web.usagi.one/genius_artist_s_random_studio/vol1/1
+// @match        https://web.usagi.one/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=usagi.one
 // @grant        GM_xmlhttpRequest
 // @connect      target.com
