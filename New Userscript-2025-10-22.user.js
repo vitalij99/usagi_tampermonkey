@@ -19,12 +19,5 @@
     headers: {
       Referer: "https://google.com/",
     },
-    onload: function (res) {
-      console.log("Status:", res.status);
-      console.log("Response:", res.responseText);
-    },
-    onerror: function (err) {
-      console.error("GM_xmlhttpRequest error:", err);
-    },
   });
 })();
