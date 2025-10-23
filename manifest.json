@@ -1,0 +1,21 @@
+{
+  "name": "Referer Modifier",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Міняє Referer у запитах на web.usagi.one",
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": ["*://web.usagi.one/*"],
+
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
